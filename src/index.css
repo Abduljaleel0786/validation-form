@@ -1,0 +1,122 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8; /* Softer light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form {
+  background: #ffffff;
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid #5e9ca0; /* Subtle grey-blue border */
+  transition: all 0.3s ease;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #003b46; /* Darker teal */
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #00796b; /* Muted teal for message */
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #004d40; /* Darker greenish */
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #b2dfdb; /* Soft grey-cyan border */
+  border-radius: 8px;
+  background-color: #fafafa; /* Light grey background */
+  font-size: 15px;
+  color: #004d40; /* Deep greenish */
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #00897b; /* Teal on focus */
+  background-color: #f0f4f8; /* Softer background on focus */
+}
+
+.input::placeholder {
+  color: #90a4ae; /* Light greyish placeholder */
+}
+
+.error-message {
+  font-size: 13px;
+  color: #e57373; /* Soft red for error */
+  margin-top: 5px;
+}
+
+.submit {
+  width: 100%;
+  padding: 14px;
+  background-color: #00897b; /* Teal button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #00695c; /* Darker teal on hover */
+}
+
+.signin {
+  text-align: center;
+  margin-top: 20px;
+  color: #004d40; /* Darker greenish */
+}
+
+.signin a {
+  color: #00897b; /* Teal for link */
+  text-decoration: none;
+}
+
+.signin a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul li {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #b2dfdb; /* Soft cyan border */
+  border-radius: 8px;
+  color: #004d40; /* Dark greenish text */
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #f0f4f8; /* Softer cyanish background on hover */
+}

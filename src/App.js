@@ -1,11 +1,12 @@
-import './App.css';
+import Form from "./forms";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
-  );
-}
+    <>
+    <Form/>
+    </>
+
+  )
+};
 
 export default App;
